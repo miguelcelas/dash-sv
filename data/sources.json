@@ -1,0 +1,22 @@
+{
+  "sources": [
+    { "name": "SEI Bahia", "state": "BA", "region": "Semiárido", "type": "oficial", "url": "https://www.sei.ba.gov.br", "active": true },
+    { "name": "Sudene", "state": "NE", "region": "Semiárido", "type": "oficial", "url": "https://www.gov.br/sudene", "active": true },
+    { "name": "INMET", "state": "BR", "region": "Semiárido", "type": "oficial", "url": "https://portal.inmet.gov.br", "active": true },
+    { "name": "IRPAA", "state": "BA", "region": "Semiárido", "type": "oficial", "url": "https://irpaa.org", "active": true },
+    { "name": "UVA", "state": "CE", "region": "Semiárido", "type": "institucional", "url": "https://uvanet.br", "active": true },
+    { "name": "Marco Zero Conteúdo", "state": "PE", "region": "Semiárido", "type": "independente", "url": "https://marcozero.org", "active": true },
+    { "name": "Retruco", "state": "PE", "region": "Semiárido", "type": "independente", "url": "https://retruco.com.br", "active": true },
+    { "name": "Coletivo Acauã", "state": "PE", "region": "Semiárido", "type": "independente", "url": "https://coletivoacaua.com.br", "active": true },
+    { "name": "Agência Eco Nordeste", "state": "CE", "region": "Semiárido", "type": "independente", "url": "https://agenciaeconordeste.com.br", "active": true },
+    { "name": "Agência Saiba Mais", "state": "RN", "region": "Semiárido", "type": "independente", "url": "https://saibamais.jor.br", "active": true },
+    { "name": "Agência Tatu", "state": "AL", "region": "Semiárido", "type": "independente", "url": "https://agenciatatu.com.br", "active": true },
+    { "name": "Mangue Jornalismo", "state": "SE", "region": "Semiárido", "type": "independente", "url": "https://manguejornalismo.org", "active": true },
+    { "name": "Conquista Repórter", "state": "BA", "region": "Semiárido", "type": "independente", "url": "https://conquistareporter.com.br", "active": true },
+    { "name": "Diário do Sertão", "state": "PB", "region": "Semiárido", "type": "independente", "url": "https://diariodosertao.com.br", "active": true },
+    { "name": "TV Quilombo", "state": "MA", "region": "Semiárido", "type": "independente", "url": "https://tvquilombo.com.br", "active": true },
+    { "name": "Rede Cajueira", "state": "NE", "region": "Semiárido", "type": "agregador", "url": "https://redecajueira.com.br", "active": true },
+    { "name": "Mapa Cajueira", "state": "NE", "region": "Semiárido", "type": "agregador", "url": "https://mapacajueira.com", "active": true },
+    { "name": "Mapa da Mídia Independente PE", "state": "PE", "region": "Semiárido", "type": "agregador", "url": "https://mapadamidiape.marcozero.org", "active": true }
+  ]
+}

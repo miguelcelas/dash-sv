@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "2026-0001",
+      "title": "Exemplo: Monitoramento hídrico aponta atenção para reservatórios do sertão baiano",
+      "summary": "Levantamento técnico destaca municípios com volume crítico e recomendações para gestão local de água no Semiárido.",
+      "source": "SEI Bahia",
+      "url": "https://www.sei.ba.gov.br",
+      "paywall": false,
+      "state": "BA",
+      "themes": ["água", "clima"],
+      "published_at": "2026-01-12"
+    },
+    {
+      "id": "2026-0002",
+      "title": "Exemplo: Sudene anuncia nova rodada de apoio a projetos produtivos no Semiárido",
+      "summary": "Programa prevê incentivos para cadeias locais e ações de convivência com a seca em territórios prioritários.",
+      "source": "Sudene",
+      "url": "https://www.gov.br/sudene",
+      "paywall": false,
+      "state": "NE",
+      "themes": ["economia", "políticas públicas"],
+      "published_at": "2026-02-03"
+    }
+  ]
+}
