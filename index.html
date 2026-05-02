@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semiárido Vivo • Dashboard</title>
+    <link rel="stylesheet" href="https://use.typekit.net/rjs6bjw.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Semiárido Vivo</h1>
+      <p>Curadoria de notícias do Semiárido • atualização contínua • desde 01/01/2026</p>
+    </header>
+
+    <main class="container">
+      <section class="panel filters">
+        <h2>Filtros</h2>
+        <div class="grid">
+          <label>
+            Estado
+            <select id="stateFilter"></select>
+          </label>
+          <label>
+            Tema
+            <select id="themeFilter"></select>
+          </label>
+          <label>
+            Data inicial
+            <input type="date" id="startDate" min="2026-01-01" value="2026-01-01" />
+          </label>
+          <label>
+            Data final
+            <input type="date" id="endDate" />
+          </label>
+          <label class="paywall-check">
+            <input type="checkbox" id="hidePaywall" />
+            Ocultar matérias com paywall
+          </label>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Notícias</h2>
+        <div id="newsCount"></div>
+        <div id="newsList" class="news-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Fontes monitoradas</h2>
+        <ul id="sourceList"></ul>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
