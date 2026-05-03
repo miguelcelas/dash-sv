@@ -88,3 +88,25 @@ Se aparecerem poucas notícias, o dashboard aplica estes critérios ao mesmo tem
 4. Se marcar "Ocultar matérias com paywall", itens com `paywall: true` saem da lista.
 
 Além disso, a base inicial de exemplo veio com apenas 2 notícias em `data/news.json`.
+
+
+## Implementação de atualização diária (ao vivo)
+
+1. Cadastre os feeds RSS/Atom por fonte em `data/sources.json` no campo `feeds`.
+2. Rode o coletor para atualizar `data/news.json`:
+
+```bash
+python3 scripts/update_news.py
+```
+
+3. Valide o resultado:
+
+```bash
+python3 scripts/validate_news.py
+```
+
+### Automação diária (GitHub Actions)
+
+Crie workflow para execução diária (cron) do coletor + commit automático do `data/news.json`.
+
+Exemplo de agenda: `0 10 * * *` (10:00 UTC).
